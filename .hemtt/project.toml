@@ -1,0 +1,26 @@
+name = "Gruppe Adler Mod"
+prefix = "grad"
+
+[properties]
+author = "Gruppe Adler"
+
+[files]
+include = [
+    "Adler_64.paa",
+    "Adler_w_64.paa",
+    "Adler_w_2.paa",
+    "mod.cpp",
+    "LICENSE",
+    "README.md",
+    "include/**"
+]
+
+[signing]
+key_name = "{{prefix}}_{{version}}"
+authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+[hemtt.release]
+folder = "@zip gruppe_adler_mod_{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+
+[header]
+version = "{{git \"id 8\"}}"
