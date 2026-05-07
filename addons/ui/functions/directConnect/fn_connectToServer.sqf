@@ -1,6 +1,6 @@
 #include "script_component.hpp"
 
-#define ARMA_GRAD_IP "136.243.149.162"
+#define ARMA_GRAD_IP "17thpathfinders.org"
 
 params [["_port",2302]];
 
